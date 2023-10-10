@@ -1,0 +1,48 @@
+body {
+	background-image: url(kids_doodle_background.svg);
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.principal {
+	max-width: 85%;
+	margin: auto;
+	text-align: center;
+}
+
+.header, .kids_text, .form_article, footer{
+	margin-top: 2rem;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: aliceblue;
+	padding: 2%;
+}
+.title {
+	font-size: 5rem;
+	padding-bottom: .8rem;
+	font-style: oblique;
+	font-family: 'Flavors', cursive;
+}
+.subtitle {
+	font-size: 1.8rem;
+}
+
+.quantia {
+	line-height: 2rem;
+	width: 35%;
+	text-align: center;
+	font-family: inherit;
+	font-size: 1.5rem;
+}
+
+.btn {
+	text-transform: uppercase;
+	line-height: 2rem;
+	font-size: 1.1rem;
+	font-family: inherit;
+}
+
+p a:visited{
+	color: blue;
+}

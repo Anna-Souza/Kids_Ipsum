@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Ana Souza - @DevSerAna">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+	<title>Kids Ipsum</title>
+</head>
+
+<body>
+	<main class="principal">
+		<div class="header">
+			<h1 class="title">Kids Ipsum</h1>
+			<hr>
+			<h3 class="subtitle">Um "lorem ipsum" engraçadinho com músicas e parlendas infantis. 
+			</h3>
+		</div>
+		<section class="form_article">
+			<form class="kids_form">
+				<label for="quantia">Você pode criar até 12 parágrafos. Coloque a quantidade desejada abaixo: <br> <br></label>
+				<input class="quantia" type="text" name="quantia" id="quantia" required pattern="(\b([1-9]|1[0-2])\b)" placeholder="1 ~ 12"> <br>
+				<button class="btn" type="submit" class="botao">criar </button>
+			</form>
+			<article class="kids_text"> </article>
+		</section>
+		<footer>
+			<p> 
+				Criado por: 
+				<a href="https://github.com/Anna-Souza">@DevSerAna</a>   - Adaptado do exercício proposto no <a href="https://www.freecodecamp.org/portuguese/news/40-projetos-em-javascript-para-iniciantes-ideias-simples-para-comecar-a-programar-em-js/#como-criar-seu-pr-prio-lorem-ipsum"> freeCodeCamp.org. </a> 
+				<br>
+				© Background por 
+				<a href='https://www.123rf.com/profile_9george'>9george</a> disponível em: <a href='https://www.123rf.com/free-images/'>123RF Free Images</a>.
+			</p>
+		</footer>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
